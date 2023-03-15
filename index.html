@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tribal Gateway llc</title>
+    <link rel="icon" href="TRIBAL CTN.jpg">
+</head>
+<body>
+    <div class="image">
+        <img src="tribal gateway.jpg" alt="">
+    </div>
+    <h1>Hello from Nigeria!</h1>
+    <p style="text-align: center;">So excited that you will be visiting Nigeria soon! Our goal is to make your journey as smooth as possible.</p>
+    <h2 style="text-align: center;"> Application Form</h2>
+
+   
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required><br>
+      <label for="phone">Phone#:</label>
+      <input type="number" id="phone" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br>
+      <label for="date-arrival">Date of Arrival:</label>
+      <input type="date" id="date-arrival" required><br>
+      <label for="time-arrival">Time of Arrival:</label>
+      <input type="time" id="time-arrival" required><br>
+      <label for="airline">Airline:</label>
+      <input type="text" id="airline" required><br>
+      <label for="airport-arrival">Arrival Airport:</label>
+      <input type="text" id="airport-arrival"><br>
+      <label for="date-departure">Date of Departure:</label>
+      <input type="date" id="date-departure"><br>
+      <label for="traveling-with">Are others traveling with you?</label>
+      <input type="radio" id="traveling-with-no" name="traveling-with" value="no" checked>
+      <label for="traveling-with-no">No</label>
+      <input type="radio" id="traveling-with-yes" name="traveling-with" value="yes">
+      <label for="traveling-with-yes">Yes. How many?</label>
+      <input type="number" id="traveling-with-number" min="1"><br>
+      <label for="airport-departure-escort">Do you want to add Airport Escort for your Departure?</label>
+      <input type="radio" id="airport-departure-escort-yes" name="airport-departure-escort" value="yes">
+      <label for="airport-departure-escort-yes">$75</label>
+      <input type="radio" id="airport-departure-escort-no" name="airport-departure-escort" value="75" checked>
+      <label for="airport-departure-escort-no">No, thank you</label><br>
+      <label for="relative-name">Will someone be in Nigeria to greet you at the airport?</label>
+      <input type="text" id="relative-name" placeholder="Relative Name"><br>
+      <label for="relative-phone">Relative phone#:</label>
+      <input type="text" id="relative-phone" required><br>
+        <h2>Transportation</h2>
+      <label for="transportation-arrival">Transportation on the day of Arrival:</label>
+      <label for="transportation-arrival">$50</label>
+      <input type="checkbox" id="transportation-arrival" value="50">
+      <br>
+      <label for="transportation-departure">Transportation on the day of Departure:</label>
+      <input type="checkbox" id="transportation-departure" value="50">
+      <label for="transportation-relative">Transportation for my Relative to be picked up and brought to the airport to greet me, and then take us both to our accommodation from the airport ($100)</label>
+      <input type="checkbox" id="transportation-relative" value="100">
+      <br><br>
+  
+  <label for="security-officer">Would you like to have a security officer to escort you during your stay?</label>
+  <br>
+  <label for="security-officer-no">No</label>
+  <input type="radio" id="security-officer-no" name="security-officer" value="0">
+  
+  <br>
+  <label for="security-officer-private">Private Officer $40 daily</label>
+  <input type="radio" id="security-officer-private" name="security-officer" value="40">
+  
+  
+  <br>
+  <label for="security-officer-police">Police Officer $60 daily</label>
+  <input type="radio" id="security-officer-police" name="security-officer" value="60">
+  
+  <br>
+  <label for="security-officer-armed">Visibly Armed $75 daily surcharge (in addition to above Officer Charge)</label>
+  <input type="radio" id="security-officer-armed" name="security-officer" value="75">
+  
+  
+  <br><br>
+  <label for="t-shirt-queen">Queen Tshirt $25</label>
+  <br>
+  <label for="t-shirt-queen-s">S</label>
+  <input type="checkbox" id="t-shirt-queen-s" name="t-shirt-queen" value="25">
+  
+  <label for="t-shirt-queen-m">M</label>
+  <input type="checkbox" id="t-shirt-queen-m" name="t-shirt-queen" value="25">
+  
+  <input type="checkbox" id="t-shirt-queen-l" name="t-shirt-queen" value="25">
+  <label for="t-shirt-queen-l">L</label>
+  <input type="checkbox" id="t-shirt-queen-xl" name="t-shirt-queen" value="25">
+  <label for="t-shirt-queen-xl">XL</label>
+  <input type="checkbox" id="t-shirt-queen-1x" name="t-shirt-queen" value="25">
+  <label for="t-shirt-queen-1x">1X</label>
+  <input type="checkbox" id="t-shirt-queen-2x" name="t-shirt-queen" value="25">
+  <label for="t-shirt-queen-2x">2X</label>
+  
+  <br><br>
+  <label for="t-shirt-king">Matching King T-Shirt $25</label>
+  <br>
+  <input type="checkbox" id="t-shirt-king-m" name="t-shirt-king" value="25">
+  <label for="t-shirt-king-m">M</label>
+  <input type="checkbox" id="t-shirt-king-l" name="t-shirt-king" value="25">
+  <label for="t-shirt-king-l">L</label>
+  <input type="checkbox" id="t-shirt-king-xl" name="t-shirt-king" value="25">
+  <label for="t-shirt-king-xl">XL</label>
+  <input type="checkbox" id="t-shirt-king-1x" name="t-shirt-king" value="25">
+  <label for="t-shirt-king-1x">1X</label>
+  <input type="checkbox" id="t-shirt-king-2x" name="t-shirt-king" value="25">
+<label for="t-shirt-king-2x">2X</label>
+</div>
+
+
+<div>
+  <label for="t-shirt-title">Choose Title:</label>
+  <select id="t-shirt-title" name="t-shirt-title">
+    <option value="The Queen has Arrived">The Queen has Arrived</option>
+    <option value="The King has Arrived">The King has Arrived</option>
+    <option value="Breaking The Spell">Breaking The Spell</option>
+    <option value="It’s In My DNA">It’s In My DNA</option>
+  </select>
+</div>
+<div>
+  <h3>CART</h3>
+  <p>VOA $<span id="voa-price">700</span></p>
+  <p>Departure Escort $<span id="departure-escort-price">0</span></p>
+  <p>Transportation $<span id="transportation-price">0</span></p>
+  <p>Security Total $<span id="security-total-price">0</span></p>
+  <p>T-Shirts $<span id="t-shirts-price">0</span></p>
+  <p>VAT/Tax $<span id="tax-price">10</span></p>
+  <p>Subtotal $<span id="subtotal-price">0</span></p>
+  <div>
+    <label for="discount-code">Discount Code:</label>
+    <input type="text" id="discount-code" name="discount-code">
+    <button onclick="applyDiscount()">Apply</button>
+    <p>Discount Amount: $<span id="discount-amount">0</span></p>
+  </div>
+
+  <!--Javascript below-->
+
+  <p>Total cost: <span id="cart-total">$0</span></p>
+</div>
+<button onclick="calculateTotal()">Calculate Total</button>
+
+<!-- CART -->
+
+<!-- PAYMENT -->
+<h2>Payment</h2>
+<p>1. VOA is $700 usd if paid in full. </p>
+<p>2. If you're making a security deposit of $100*. Then you can choose to divide the balance by 2 or 3 payments. Must be paid in full before 15days of your flight.</p>
+<p>Payments can be sent via any of the following:</p>
+<ul>
+  <li>World Remit</li>
+  <li>Remitly</li>
+  <li>Sendwave</li>
+  <li>Western Union</li>
+  </ul>
+<p>SELECT BANK DEPOSIT</p>
+<p>ROBERTA TONIATTE BRYANT</p>
+<p>Access Bank</p>
+<p>Acc. No is 1662807523</p>
+<p>Lekki, Lagos, Nigeria</p>
+<p>tribalgatewayllc@gmail.com</p>
+<p>+234-913-903-0389</p>
+<p>*Security Deposit is non-refundable. Any remaining balance will be given as credit.</p>
+<!-- VOA PROCESS -->
+<h2>VOA Process</h2>
+<p>Once payment is received you will receive your receipt with your client number. You will need to use your client number to upload and email the following documents in order to process your VOA Approval Letter:</p>
+<ol>
+  <li>Copy of Passport Data Page</li>
+  <li>Copy of your flight itinerary</li>
+  <li>Passport Photo (headshot of you with white background)</li>
+</ol>
+<p>Once you've been approved, you'll receive a notification of your approval. However, you will receive your official approval VOA letter from the Nigerian Embassy within 5 days of your flight. This is done in case there are any changes to your flight, since your letter will have your identifying flight information.</p>
+<h2>Important</h2>
+<p>You'll needto confirm your reservation by submitting payment within 24 hours of making your reservation. If payment is not received within 24 hours, your reservation will be canceled.</p>
+
+<h2>Payment Information</h2>
+<form>
+  <label for="card-type">Card Type:</label>
+  <select id="card-type">
+    <option value="visa">Visa</option>
+    <option value="mastercard">Mastercard</option>
+    <option value="amex">American Express</option>
+  </select><br>
+<label for="card-number">Card Number:</label>
+<input type="text" id="card-number" name="card-number"><br>
+
+<label for="expiration">Expiration Date:</label>
+<input type="month" id="expiration" name="expiration"><br>
+
+<label for="cvv">CVV:</label>
+<input type="password" id="cvv" name="cvv"><br>
+
+  <input type="submit" value="Submit form/Payment">
+</form>
+</div>
+<footer>
+  <a href="#" style="color: white;"> Home</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="" style="color: white;">About</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="" style="color: white;">Contact Us</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <p>&copy; Tribal Gateway 2023 Travel Agency</p>
+</footer>
+<link rel="script" href="index.js">
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
